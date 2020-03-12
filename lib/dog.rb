@@ -7,6 +7,9 @@ class Dog
       @the_name_variable_is_local_to_class
     end
 
+    fido = Dog.new
+    fido.name = "Fido"
+
    def bark
      puts "woof!"
    end
