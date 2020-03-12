@@ -1,6 +1,6 @@
 class Dog
    def name=(dog_name)
-     @the_name_variable_is_local_to_class.name = dog_name
+     @the_name_variable_is_local_to_class = dog_name.name
    end
 
    def name
