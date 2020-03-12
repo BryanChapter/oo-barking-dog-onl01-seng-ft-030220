@@ -1,15 +1,11 @@
 class Dog
-  def set_name=(dog_name)
-    @doggo = dog_name
+  def get_the_name
+     @the_name_variable_is_local_to_class
+   end
+   def set_the_name=(dog_name)
+     @the_name_variable_is_local_to_class = dog_name
+   end
+   def bark
+     puts "woof!"
+   end
   end
-
-def set_name
-  @doggo
-end
-
-  def bark
-    puts "woof!"
-  end
-end
-
-fideo.name
