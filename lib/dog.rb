@@ -2,6 +2,8 @@ class Dog
   def get_the_name
      @the_name_variable_is_local_to_class
    end
+
+
    def set_the_name=(dog_name)
      @the_name_variable_is_local_to_class = dog_name
    end
@@ -9,3 +11,7 @@ class Dog
      puts "woof!"
    end
   end
+
+fido = Dog.new
+fido.name = "Fido"
+puts fideo.name
