@@ -3,9 +3,8 @@ class Dog
      @the_name_variable_is_local_to_class = dog_name
    end
 
-   def get_the_name
+   def get_the_name(Fido)
       @the_name_variable_is_local_to_class
-      dog_name = "Fido"
     end
 
    def bark
