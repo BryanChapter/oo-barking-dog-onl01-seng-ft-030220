@@ -5,7 +5,7 @@ class Dog
 
    def get_the_name
       @the_name_variable_is_local_to_class
-      fido.name
+      dog_name
     end
 
    def bark
